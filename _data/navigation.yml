@@ -5,7 +5,7 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Teaching"
-    url: /teaching/
   - title: "CV"
-    url: /assets/files/cv.pdf
+    url: /cv/
+  - title: "Photography"
+    url: /photography/
