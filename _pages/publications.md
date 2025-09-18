@@ -3,10 +3,6 @@ permalink: /publications/
 title: "Publications"
 author_profile: true
 classes: wide
-header:
-  overlay_color: "#1a1a2e"
-  overlay_filter: "1"
-  overlay_image: /assets/images/fluorescent-vials-banner.jpg
 ---
 
 <style>
@@ -60,7 +56,7 @@ header:
   );
   padding: 2rem;
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 2rem auto;
   max-width: 1000px;
   animation: fadeInUp 0.8s ease-out;
 }
@@ -84,7 +80,7 @@ header:
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
   border-radius: 2px;
   animation: slideInRight 1.2s ease-out;
 }
@@ -111,7 +107,7 @@ header:
   left: -100%;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+  background: linear-gradient(90deg, #e74c3c, #c0392b, #e67e22);
   transition: left 0.6s ease;
 }
 
@@ -126,7 +122,7 @@ header:
 
 /* Year Badge with Animation */
 .year-badge {
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
   color: white;
   padding: 0.6rem 1.5rem;
   border-radius: 30px;
@@ -135,7 +131,7 @@ header:
   display: inline-block;
   margin-bottom: 1.5rem;
   animation: float 3s ease-in-out infinite;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
 }
 
 /* Title with Hover Effect */
@@ -161,12 +157,12 @@ header:
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
   transition: width 0.4s ease;
 }
 
 .publication-title a:hover {
-  color: #667eea;
+  color: #e74c3c;
 }
 
 .publication-title a:hover::after {
@@ -189,6 +185,164 @@ header:
   animation: slideInRight 1.6s ease-out;
 }
 
+/* Enhanced Button */
+.read-paper-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 6px 20px rgba(39, 174, 96, 0.3);
+  position: relative;
+  overflow: hidden;
+  animation: slideInUp 1.8s ease-out;
+  margin-bottom: 2rem;
+}
+
+.read-paper-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.3));
+  transition: left 0.6s ease;
+}
+
+.read-paper-btn:hover::before {
+  left: 100%;
+}
+
+.read-paper-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(39, 174, 96, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+/* Graphical Abstract Section */
+.graphical-abstract {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.95), 
+    rgba(248, 249, 250, 0.95)
+  );
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  border: 2px dashed #e74c3c;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: fadeInUp 1.8s ease-out;
+  position: relative;
+}
+
+.graphical-abstract:hover {
+  background: linear-gradient(135deg, 
+    rgba(231, 76, 60, 0.05), 
+    rgba(192, 57, 43, 0.05)
+  );
+  border-color: #c0392b;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(231, 76, 60, 0.1);
+}
+
+.abstract-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.abstract-icon {
+  font-size: 2rem;
+  color: #e74c3c;
+}
+
+.abstract-text {
+  color: #2c3e50;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.abstract-description {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.view-abstract-btn {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-abstract-btn:hover {
+  background: linear-gradient(45deg, #c0392b, #a93226);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+}
+
+/* Modal for Graphical Abstract */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+}
+
+.modal-content {
+  margin: 2% auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: #e74c3c;
+}
+
+.modal-caption {
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 0;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* Abstract Section with Animation */
 .abstract-section {
   background: linear-gradient(135deg, 
@@ -198,7 +352,7 @@ header:
   padding: 2rem;
   border-radius: 16px;
   margin: 2rem 0;
-  border-left: 5px solid #667eea;
+  border-left: 5px solid #e74c3c;
   backdrop-filter: blur(10px);
   animation: fadeInUp 2s ease-out;
   transition: all 0.3s ease;
@@ -206,11 +360,11 @@ header:
 
 .abstract-section:hover {
   transform: translateX(5px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 8px 25px rgba(231, 76, 60, 0.1);
 }
 
 .abstract-section h4 {
-  color: #667eea;
+  color: #e74c3c;
   margin-bottom: 1rem;
   font-size: 1.1rem;
   font-weight: 700;
@@ -233,15 +387,15 @@ header:
 
 .keyword {
   background: linear-gradient(45deg, 
-    rgba(102, 126, 234, 0.1), 
-    rgba(240, 93, 251, 0.1)
+    rgba(231, 76, 60, 0.1), 
+    rgba(192, 57, 43, 0.1)
   );
-  color: #667eea;
+  color: #e74c3c;
   padding: 0.5rem 1rem;
   border-radius: 25px;
   font-size: 0.8rem;
   font-weight: 500;
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(231, 76, 60, 0.2);
   transition: all 0.3s ease;
   animation: fadeInUp var(--delay, 2.2s) ease-out;
 }
@@ -253,13 +407,13 @@ header:
 .keyword:nth-child(5) { --delay: 3.0s; }
 
 .keyword:hover {
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
   color: white;
   transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
 }
 
-/* Research Impact Section */
+/* Research Impact Section - Fixed Layout */
 .research-impact {
   background: rgba(255, 255, 255, 0.95);
   padding: 2.5rem;
@@ -291,12 +445,14 @@ header:
 
 .highlight-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   background: linear-gradient(135deg, 
-    rgba(102, 126, 234, 0.05), 
-    rgba(240, 93, 251, 0.05)
+    rgba(231, 76, 60, 0.05), 
+    rgba(192, 57, 43, 0.05)
   );
   border-radius: 12px;
   transition: all 0.3s ease;
@@ -309,16 +465,15 @@ header:
 
 .highlight-item:hover {
   background: linear-gradient(135deg, 
-    rgba(102, 126, 234, 0.1), 
-    rgba(240, 93, 251, 0.1)
+    rgba(231, 76, 60, 0.1), 
+    rgba(192, 57, 43, 0.1)
   );
-  transform: translateX(5px);
+  transform: translateY(-5px);
 }
 
 .highlight-icon {
-  font-size: 2rem;
-  min-width: 3rem;
-  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .highlight-text {
@@ -332,7 +487,7 @@ header:
 @media (max-width: 768px) {
   .publications-wrapper {
     padding: 1.5rem;
-    margin: 0 0.5rem;
+    margin: 1rem;
   }
   
   .publication-card {
@@ -345,6 +500,11 @@ header:
   
   .impact-highlights {
     grid-template-columns: 1fr;
+  }
+
+  .abstract-preview {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 
@@ -359,6 +519,10 @@ header:
   }
 }
 </style>
+
+<div class="publications-wrapper">
+
+<h2 class="section-title">Peer-Reviewed Publications</h2>
 
 <div class="publication-card">
   <span class="year-badge">2024</span>
@@ -376,7 +540,19 @@ header:
   <div class="journal-info">
     <em>Chemistry Select</em>, Volume 9, Issue 32, e202400762 (2024) • Impact Factor: 2.3
   </div>
-   
+    
+  <!-- Graphical Abstract Section -->
+  <div class="graphical-abstract" onclick="openModal()">
+    <div class="abstract-preview">
+      <div class="abstract-icon">🧬</div>
+      <div class="abstract-text">View Graphical Abstract</div>
+    </div>
+    <div class="abstract-description">
+      Click to see the complete research workflow from fruit peels to carbon dots
+    </div>
+    <button class="view-abstract-btn">View Abstract</button>
+  </div>
+  
   <div class="abstract-section">
     <h4>Abstract</h4>
     <p>Curcumin, known for its proapoptotic, chemo-preventive, chemo-therapeutic, antioxidant, anti-inflammatory, anticancer, and antimicrobial properties, suffers from poor bioavailability, limiting its applications. This study aims to enhance curcumin's bioavailability using carbon dots (CDs) synthesized from fruit peels as a novel nano formulation. CDs were synthesized via hydrothermal synthesis using banana and orange peels as carbon sources. The synthesized CDs were characterized using various techniques including UV-visible spectroscopy, fluorescence spectroscopy, FTIR, DLS, and HRTEM. The results demonstrated successful formation of spherical CDs with enhanced curcumin delivery properties and improved antimicrobial and antioxidant activities.</p>
@@ -412,3 +588,37 @@ header:
     </div>
   </div>
 </div>
+
+</div>
+
+<!-- Modal for Graphical Abstract -->
+<div id="abstractModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+  <div class="modal-caption" id="modalCaption"></div>
+</div>
+
+<script>
+function openModal() {
+  var modal = document.getElementById("abstractModal");
+  var modalImg = document.getElementById("modalImg");
+  var captionText = document.getElementById("modalCaption");
+  
+  modal.style.display = "block";
+  modalImg.src = "/assets/images/graphical-abstract-full.jpg"; // Upload your graphical abstract image here
+  captionText.innerHTML = "Complete research workflow: From fruit peels to carbon dots for enhanced curcumin delivery";
+}
+
+function closeModal() {
+  var modal = document.getElementById("abstractModal");
+  modal.style.display = "none";
+}
+
+// Close modal when clicking outside the image
+window.onclick = function(event) {
+  var modal = document.getElementById("abstractModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
