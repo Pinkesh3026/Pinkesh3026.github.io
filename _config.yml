@@ -161,18 +161,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-# Custom CSS
-sass:
-  sass_dir: _sass
-  style: compressed
 
-# Add custom head includes
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-      custom_css: true
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
