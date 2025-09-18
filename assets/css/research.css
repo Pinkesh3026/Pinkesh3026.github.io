@@ -1,0 +1,335 @@
+/* ================================
+   RESEARCH PAGE STYLES
+   ================================ */
+
+/* Main Container */
+.research-container {
+  background: linear-gradient(135deg, 
+    rgba(245, 245, 255, 0.9) 0%,
+    rgba(235, 255, 245, 0.8) 25%,
+    rgba(255, 245, 235, 0.9) 50%,
+    rgba(245, 255, 255, 0.8) 75%,
+    rgba(255, 245, 255, 0.9) 100%
+  );
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+/* Research Overview Section */
+.research-overview {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #667eea;
+}
+
+.research-overview h2 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.research-overview p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Research Interests Grid */
+.research-interests {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.interest-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border-left: 3px solid #f093fb;
+}
+
+.interest-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.interest-card h4 {
+  color: #667eea;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.interest-card p {
+  color: #666;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Project Sections */
+.research-project {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #11998e;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-title {
+  flex: 1;
+  min-width: 300px;
+}
+
+.project-title h3 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.project-year {
+  background: linear-gradient(45deg, #11998e, #38ef7d);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Graphical Abstract */
+.graphical-abstract {
+  text-align: center;
+  margin: 1.5rem 0;
+  background: rgba(247, 250, 252, 0.6);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.graphical-abstract img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.abstract-caption {
+  font-style: italic;
+  color: #666;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Project Details */
+.project-details {
+  margin: 1.5rem 0;
+}
+
+.project-info {
+  background: rgba(248, 250, 252, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.project-info p {
+  margin: 0.3rem 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.project-details h4 {
+  color: #667eea;
+  font-size: 0.95rem;
+  margin: 1.2rem 0 0.6rem 0;
+  font-weight: 600;
+}
+
+.project-details ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.project-details li {
+  margin-bottom: 0.4rem;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Technical Capabilities */
+.tech-capabilities {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.tech-capabilities h3 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.capability-section h4 {
+  color: #667eea;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.2);
+  padding-bottom: 0.3rem;
+}
+
+.capability-list {
+  list-style: none;
+  padding: 0;
+}
+
+.capability-list li {
+  padding: 0.3rem 0;
+  font-size: 0.8rem;
+  color: #555;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.capability-list li::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-size: 0.6rem;
+}
+
+/* Future Directions */
+.future-directions {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(240, 93, 251, 0.05));
+  padding: 1.8rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.future-directions h3 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.future-directions ol {
+  margin-left: 1.2rem;
+}
+
+.future-directions li {
+  margin-bottom: 0.8rem;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Collaborations */
+.collaborations {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.collaborations h3 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.collaborations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.collaborations li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.collaborations li:last-child {
+  border-bottom: none;
+}
+
+.collaborations strong {
+  color: #667eea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .research-container {
+    padding: 1rem;
+  }
+  
+  .research-project {
+    padding: 1.5rem;
+  }
+  
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .project-title {
+    min-width: auto;
+  }
+  
+  .capabilities-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .research-interests {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .research-project {
+    padding: 1.2rem;
+  }
+  
+  .project-title h3 {
+    font-size: 1rem;
+  }
+}
