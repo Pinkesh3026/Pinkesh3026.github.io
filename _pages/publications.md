@@ -7,12 +7,7 @@ header:
   overlay_color: "#1a1a2e"
   overlay_filter: "0.4"
   overlay_image: /assets/images/publication-banner.jpg
-  actions:
-    - label: "View Research"
-      url: "/research/"
-    - label: "Download CV"
-      url: "/cv/"
-excerpt: "Peer-reviewed research in nanotechnology and drug delivery systems"
+
 ---
 
 
@@ -43,18 +38,7 @@ excerpt: "Peer-reviewed research in nanotechnology and drug delivery systems"
     </a>
   </div>
   
-  <div class="research-images">
-    <div class="image-grid">
-      <div class="research-image">
-        <img src="/assets/images/publications/graphical-abstract.jpg" alt="Graphical Abstract - Carbon Dots Synthesis">
-        <div class="image-caption">Graphical Abstract: Synthesis and characterization of carbon dots from fruit peels</div>
-      </div>
-      <div class="research-image">
-        <img src="/assets/images/publications/results-chart.jpg" alt="Research Results Chart">
-        <div class="image-caption">Enhanced antimicrobial activity results of curcumin-loaded carbon dots</div>
-      </div>
-    </div>
-  </div>
+
   
   <div class="abstract-section">
     <h4>Abstract</h4>
