@@ -412,5 +412,3 @@ header:
     </div>
   </div>
 </div>
-
-</div>
