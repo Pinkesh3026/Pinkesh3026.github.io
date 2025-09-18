@@ -56,60 +56,6 @@ header:
   </div>
 </div>
 
-## Thesis Publications
-
-<div class="thesis-section">
-  
-  <div class="thesis-item">
-    <div class="thesis-header">
-      <h3>Master's Thesis - Edinburgh Napier University (2024)</h3>
-      <span class="grade-badge">Distinction</span>
-    </div>
-    <h4>Nano silver and nano cellulose mediated inflammatory and cell survival responses in lung epithelial cells</h4>
-    <div class="thesis-details">
-      <p><strong>Institution:</strong> Edinburgh Napier University, UK</p>
-      <p><strong>Duration:</strong> January 2023 - May 2024</p>
-      <p><strong>Grade:</strong> First Class Honours (Distinction)</p>
-      <p><strong>Defense Score:</strong> 10/10 GPA</p>
-    </div>
-    <div class="thesis-abstract">
-      <p>Investigation of engineered nanoparticles' biological effects on human A549 lung epithelial cells, examining inflammatory responses and cell survival mechanisms with implications for both therapeutic applications and nanosafety assessment.</p>
-    </div>
-  </div>
-  
-  <div class="thesis-item">
-    <div class="thesis-header">
-      <h3>Master's Thesis - Sardar Patel University (2021)</h3>
-      <span class="grade-badge">Distinction</span>
-    </div>
-    <h4>Bioactivity enhancement of curcumin using carbon nanodots</h4>
-    <div class="thesis-details">
-      <p><strong>Institution:</strong> Sardar Patel University, India</p>
-      <p><strong>Duration:</strong> June 2019 - November 2021</p>
-      <p><strong>Grade:</strong> First Class Honours (Distinction)</p>
-      <p><strong>Defense Score:</strong> 10/10 GPA</p>
-    </div>
-    <div class="thesis-abstract">
-      <p>Development of sustainable carbon nanodots from agricultural waste as drug delivery vehicles, successfully demonstrating enhanced curcumin bioavailability and improved therapeutic efficacy.</p>
-    </div>
-  </div>
-
-</div>
-
-## Conference Presentations
-
-<div class="presentation-item">
-  <div class="presentation-header">
-    <h3>Recent Advances in Interdisciplinary Science and Technology (RAIST-2019)</h3>
-    <span class="presentation-type">Poster Presentation</span>
-  </div>
-  <div class="presentation-details">
-    <p><strong>Title:</strong> Carbon nanodot-mediated enhancement of curcumin bioactivity</p>
-    <p><strong>Authors:</strong> <strong>P. J. Patel</strong>, S. Gupte, V. N. Mehta</p>
-    <p><strong>Conference:</strong> RAIST-2019, Sardar Patel University, India</p>
-  </div>
-</div>
-
 ## Research Impact & Metrics
 
 <div class="metrics-section">
@@ -131,40 +77,8 @@ header:
   </div>
 </div>
 
-## Professional Profiles
 
-<div class="profiles-section">
-  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="profile-link google-scholar">
-    <i class="ai ai-google-scholar"></i>
-    <span>Google Scholar Profile</span>
-  </a>
-  <a href="https://orcid.org/YOUR-ORCID-ID" target="_blank" class="profile-link orcid">
-    <i class="ai ai-orcid"></i>
-    <span>ORCID: 0000-0000-0000-0000</span>
-  </a>
-  <a href="https://www.researchgate.net/profile/YOUR-PROFILE" target="_blank" class="profile-link researchgate">
-    <i class="ai ai-researchgate"></i>
-    <span>ResearchGate Profile</span>
-  </a>
-</div>
 
-## Manuscripts in Preparation
-
-<div class="upcoming-section">
-  <div class="upcoming-item">
-    <h4>Research on nanoparticle-mediated inflammatory responses</h4>
-    <p class="status">Based on 2024 Edinburgh Napier University thesis</p>
-    <span class="status-badge in-preparation">In Preparation</span>
-  </div>
-  
-  <div class="upcoming-item">
-    <h4>Collaborative studies on bioprocess optimization</h4>
-    <p class="status">Multi-institutional collaboration</p>
-    <span class="status-badge planning">Planning Phase</span>
-  </div>
-</div>
-
-</div>
 
 <style>
 /* Main Container with Elegant Background */
