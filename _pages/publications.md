@@ -602,7 +602,7 @@ function openModal() {
   var captionText = document.getElementById("modalCaption");
   
   modal.style.display = "block";
-  modalImg.src = "/assets/images/graphical-abstract-full.jpeg"; // Upload your graphical abstract image here
+  modalImg.src = "/assets/images/graphical-abstract-full.jpg"; // Upload your graphical abstract image here
   captionText.innerHTML = "Complete research workflow: From fruit peels to carbon dots for enhanced curcumin delivery";
 }
 
