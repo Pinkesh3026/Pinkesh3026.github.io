@@ -4,14 +4,6 @@ title: "Curriculum Vitae"
 author_profile: true
 ---
 
-<div class="cv-header">
-  <div class="cv-download">
-    <a href="/assets/files/Pinkesh_Patel_CV.pdf" class="btn btn--primary btn--large" download>
-      <i class="fas fa-download"></i> Download PDF Version
-    </a>
-  </div>
-</div>
-
 ## Personal Statement
 
 Biotechnologist with specialized expertise in mammalian cell culture, bioprocess optimization, and therapeutic protein research. Proven track record in R&D environments with hands-on experience in bioreactor operations, analytical biochemistry, and laboratory workflows. Strong background in cell expression technologies, statistical analysis, and scientific documentation supporting industrial biotechnology applications.
