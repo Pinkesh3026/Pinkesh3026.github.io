@@ -1,0 +1,284 @@
+/* ================================
+   PUBLICATIONS PAGE STYLES
+   ================================ */
+
+/* Main Container */
+.publications-wrapper {
+  background: linear-gradient(135deg, 
+    rgba(240, 248, 255, 0.9) 0%,
+    rgba(230, 245, 255, 0.7) 25%,
+    rgba(255, 250, 240, 0.9) 50%,
+    rgba(245, 255, 245, 0.7) 75%,
+    rgba(248, 240, 255, 0.9) 100%
+  );
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Publication Card */
+.publication-card {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 1rem 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.publication-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.year-badge {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+/* Title */
+.publication-title {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.publication-title a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.publication-title a:hover {
+  color: #667eea;
+  text-decoration: underline;
+}
+
+/* Authors */
+.authors {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0.8rem 0;
+  line-height: 1.4;
+}
+
+.journal-info {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Action Button */
+.publication-actions {
+  margin: 1.2rem 0;
+}
+
+.read-paper-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.3rem;
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.read-paper-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 172, 254, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+/* Research Images */
+.research-images {
+  margin: 1.5rem 0;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.research-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.research-image:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.research-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.research-image:hover img {
+  transform: scale(1.02);
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+/* Abstract */
+.abstract-section {
+  background: rgba(247, 250, 252, 0.8);
+  padding: 1.3rem;
+  border-radius: 12px;
+  margin: 1.3rem 0;
+  border-left: 3px solid #667eea;
+}
+
+.abstract-section h4 {
+  color: #667eea;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.abstract-section p {
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+/* Keywords */
+.keywords-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+.keyword {
+  background: linear-gradient(45deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+  color: #667eea;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+/* Research Significance */
+.research-significance {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  margin: 1.5rem 0 0 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.research-significance h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.research-significance p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.key-innovations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.innovation-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem;
+  background: rgba(247, 250, 252, 0.6);
+  border-radius: 8px;
+}
+
+.innovation-icon {
+  font-size: 1.2rem;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.innovation-text {
+  color: #555;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .publications-wrapper {
+    padding: 1rem;
+  }
+  
+  .publication-card {
+    padding: 1.3rem;
+  }
+  
+  .publication-title {
+    font-size: 1rem;
+  }
+  
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .research-image img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .publication-title {
+    font-size: 0.95rem;
+  }
+  
+  .authors, .journal-info {
+    font-size: 0.8rem;
+  }
+  
+  .abstract-section p {
+    font-size: 0.8rem;
+  }
+}
