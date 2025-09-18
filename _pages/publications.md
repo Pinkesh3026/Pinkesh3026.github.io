@@ -289,6 +289,7 @@ classes: wide
 }
 
 /* Fixed Modal for Graphical Abstract */
+/* Fixed Modal for Graphical Abstract */
 .modal {
   display: none;
   position: fixed;
@@ -302,28 +303,30 @@ classes: wide
 }
 
 .modal-content {
-  position: fixed;
+  display: block;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
-  z-index: 1001;
 }
 
 .close {
-  position: fixed;
-  top: 15px;
-  right: 25px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
   color: #ffffff;
   font-size: 35px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  z-index: 1002;
-  background: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.7);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -334,12 +337,12 @@ classes: wide
 
 .close:hover {
   color: #e74c3c;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .modal-caption {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
