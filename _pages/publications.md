@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 header:
   overlay_color: "#1a1a2e"
-  overlay_filter: "0.3"
+  overlay_filter: "1"
   overlay_image: /assets/images/fluorescent-vials-banner.jpg
 ---
 
@@ -187,47 +187,6 @@ header:
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
   animation: slideInRight 1.6s ease-out;
-}
-
-/* Enhanced Button */
-.read-paper-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.8rem;
-  padding: 1rem 2rem;
-  background: linear-gradient(45deg, #4facfe, #00f2fe);
-  color: white;
-  text-decoration: none;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: 0 6px 20px rgba(79, 172, 254, 0.3);
-  position: relative;
-  overflow: hidden;
-  animation: slideInUp 1.8s ease-out;
-}
-
-.read-paper-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.3));
-  transition: left 0.6s ease;
-}
-
-.read-paper-btn:hover::before {
-  left: 100%;
-}
-
-.read-paper-btn:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 10px 30px rgba(79, 172, 254, 0.4);
-  color: white;
-  text-decoration: none;
 }
 
 /* Abstract Section with Animation */
