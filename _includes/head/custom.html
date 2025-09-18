@@ -1,0 +1,22 @@
+<!-- Custom CSS Files -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Page-specific CSS -->
+{% if page.url contains 'publications' %}
+  <link rel="stylesheet" href="/assets/css/publications.css">
+{% endif %}
+
+{% if page.url contains 'research' %}
+  <link rel="stylesheet" href="/assets/css/research.css">
+{% endif %}
+
+{% if page.url contains 'about' %}
+  <link rel="stylesheet" href="/assets/css/about.css">
+{% endif %}
+
+{% if page.url contains 'photography' %}
+  <link rel="stylesheet" href="/assets/css/photography.css">
+{% endif %}
+
+<!-- Font Awesome for icons (if needed) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
