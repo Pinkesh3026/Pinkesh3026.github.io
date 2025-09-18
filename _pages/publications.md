@@ -545,10 +545,7 @@ classes: wide
   <div class="graphical-abstract" onclick="openModal()">
     <div class="abstract-preview">
       <div class="abstract-icon">🧬</div>
-      <div class="abstract-text">View Graphical Abstract</div>
-    </div>
-    <div class="abstract-description">
-      Click to see the complete research workflow from fruit peels to carbon dots
+       </div>
     </div>
     <button class="view-abstract-btn">View Abstract</button>
   </div>
@@ -605,7 +602,7 @@ function openModal() {
   var captionText = document.getElementById("modalCaption");
   
   modal.style.display = "block";
-  modalImg.src = "/assets/images/graphical-abstract-full.jpg"; // Upload your graphical abstract image here
+  modalImg.src = "/assets/images/graphical-abstract-full.jpeg"; // Upload your graphical abstract image here
   captionText.innerHTML = "Complete research workflow: From fruit peels to carbon dots for enhanced curcumin delivery";
 }
 
