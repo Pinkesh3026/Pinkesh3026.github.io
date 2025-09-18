@@ -17,6 +17,23 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+/* Option 1: Full Width Hero Banner */
+.hero-banner {
+  background: linear-gradient(
+    135deg,
+    rgba(26, 26, 46, 0.8) 0%,
+    rgba(44, 62, 80, 0.6) 50%,
+    rgba(102, 126, 234, 0.8) 100%
+  ),
+  url('/assets/images/publication-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Publication Card */
 .publication-card {
