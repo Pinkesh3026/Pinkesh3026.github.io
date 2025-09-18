@@ -165,8 +165,7 @@ My approach to photography is influenced by my scientific background. I look for
     <img src="/assets/images/photos/gallery-6.jpg" alt="Photo 6" onclick="openModal(this)">
     <img src="/assets/images/photos/gallery-7.jpg" alt="Photo 7" onclick="openModal(this)">
     <img src="/assets/images/photos/gallery-8.jpg" alt="Photo 8" onclick="openModal(this)">
-    <img src="/assets/images/photos/gallery-9.jpg" alt="Photo 9" onclick="openModal(this)">
-  </div>
+     </div>
 </div>
 
 <!-- Modal for full-size images -->
