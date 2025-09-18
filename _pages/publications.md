@@ -302,18 +302,19 @@ classes: wide
 }
 
 .modal-content {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 90vw;
+  max-height: 90vh;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+  z-index: 1001;
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 25px;
   color: #ffffff;
@@ -321,7 +322,7 @@ classes: wide
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  z-index: 1001;
+  z-index: 1002;
   background: rgba(0, 0, 0, 0.5);
   width: 50px;
   height: 50px;
@@ -498,8 +499,6 @@ classes: wide
 
 <div class="publications-wrapper">
 
-<h2 class="section-title">Peer-Reviewed Publications</h2>
-
 <div class="publication-card">
   <span class="year-badge">2024</span>
   
@@ -516,11 +515,7 @@ classes: wide
   <div class="journal-info">
     <em>Chemistry Select</em>, Volume 9, Issue 32, e202400762 (2024) • Impact Factor: 2.3
   </div>
-  
-  <a href="https://doi.org/10.1002/slct.202400762" target="_blank" class="read-paper-btn">
-    Read Full Paper
-  </a>
-  
+    
   <div class="abstract-section">
     <h4>Abstract</h4>
     <p>Curcumin, known for its proapoptotic, chemo-preventive, chemo-therapeutic, antioxidant, anti-inflammatory, anticancer, and antimicrobial properties, suffers from poor bioavailability, limiting its applications. This study aims to enhance curcumin's bioavailability using carbon dots (CDs) synthesized from fruit peels as a novel nano formulation. CDs were synthesized via hydrothermal synthesis using banana and orange peels as carbon sources. The synthesized CDs were characterized using various techniques including UV-visible spectroscopy, fluorescence spectroscopy, FTIR, DLS, and HRTEM. The results demonstrated successful formation of spherical CDs with enhanced curcumin delivery properties and improved antimicrobial and antioxidant activities.</p>
