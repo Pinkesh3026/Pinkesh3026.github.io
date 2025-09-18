@@ -360,10 +360,6 @@ header:
 }
 </style>
 
-<div class="publications-wrapper">
-
-<h2 class="section-title">Peer-Reviewed Publications</h2>
-
 <div class="publication-card">
   <span class="year-badge">2024</span>
   
