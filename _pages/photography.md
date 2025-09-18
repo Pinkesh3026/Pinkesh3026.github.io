@@ -11,8 +11,7 @@ header:
       url: "#gallery"
 excerpt: "Capturing the beauty of science, nature, and urban landscapes through my lens"
 ---
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/photography.css">
+
 ## About My Photography
 
 Photography has been my creative outlet alongside scientific research. I find inspiration in the intersection between art and science, often capturing the aesthetic beauty found in laboratory settings, microscopic worlds, and the natural environments that inspire my research.
