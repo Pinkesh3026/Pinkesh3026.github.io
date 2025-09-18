@@ -56,28 +56,6 @@ header:
   </div>
 </div>
 
-## Research Impact & Metrics
-
-<div class="metrics-section">
-  <div class="metric-card">
-    <div class="metric-number">1</div>
-    <div class="metric-label">Published Papers</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">2</div>
-    <div class="metric-label">Completed Theses</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">2.3</div>
-    <div class="metric-label">Journal Impact Factor</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">10/10</div>
-    <div class="metric-label">Defense Scores</div>
-  </div>
-</div>
-
-</div>
 
 
 <style>
