@@ -208,20 +208,6 @@ header:
   animation: slideInUp 1.8s ease-out;
 }
 
-.read-paper-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.3));
-  transition: left 0.6s ease;
-}
-
-.read-paper-btn:hover::before {
-  left: 100%;
-}
 
 /* Abstract Section with Animation */
 .abstract-section {
