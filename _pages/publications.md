@@ -15,7 +15,6 @@ header:
 excerpt: "Peer-reviewed research in nanotechnology and drug delivery systems"
 ---
 
-<link rel="stylesheet" href="/assets/css/publications.css">
 
 <div class="publications-wrapper">
 
