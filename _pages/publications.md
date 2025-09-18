@@ -5,14 +5,8 @@ author_profile: true
 classes: wide
 header:
   overlay_color: "#1a1a2e"
-  overlay_filter: "0.3"
+  overlay_filter: "0.8"
   overlay_image: /assets/images/fluorescent-vials-banner.jpg
-  actions:
-    - label: "View Research"
-      url: "/research/"
-    - label: "Download CV"
-      url: "/cv/"
-excerpt: "Peer-reviewed research in nanotechnology and drug delivery systems"
 ---
 
 <style>
@@ -227,13 +221,6 @@ excerpt: "Peer-reviewed research in nanotechnology and drug delivery systems"
 
 .read-paper-btn:hover::before {
   left: 100%;
-}
-
-.read-paper-btn:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 10px 30px rgba(79, 172, 254, 0.4);
-  color: white;
-  text-decoration: none;
 }
 
 /* Abstract Section with Animation */
@@ -451,7 +438,7 @@ excerpt: "Peer-reviewed research in nanotechnology and drug delivery systems"
 <div class="research-impact">
   <h3>Research Impact & Significance</h3>
   <p style="color: #555; font-size: 0.95rem; line-height: 1.6; text-align: center; margin-bottom: 2rem;">
-    This publication represents a significant contribution to <strong>sustainable nanomedicine</strong>. By utilizing agricultural waste (fruit peels) to create carbon nanodots, this research addresses both environmental sustainability and pharmaceutical efficacy challenges.
+    This publication represents a contribution to <strong>sustainable nanomedicine</strong>. By utilizing fruit peels to create carbon nanodots, this research addresses both environmental sustainability and pharmaceutical efficacy challenges.
   </p>
   
   <div class="impact-highlights">
