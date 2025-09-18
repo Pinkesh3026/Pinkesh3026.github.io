@@ -6,9 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /assets/images/photos/banner-photo.jpg
-  actions:
-    - label: "View Full Gallery"
-      url: "#gallery"
+ 
 excerpt: "Capturing the beauty of science, nature, and urban landscapes through my lens"
 ---
 
@@ -84,16 +82,16 @@ My photographic interests include:
 <div class="photo-collection">
   <div class="photo-grid">
     <div class="photo-item">
-      <img src="/assets/images/photos/dewdrop-macro.jpg" alt="Water droplet macro">
+      <img src="/assets/images/photos/lights.jpg" alt="Reflections of light on a castle">
       <div class="photo-info">
         <h4>Morning Dew</h4>
-        <p>Macro photography revealing nature's intricate details</p>
+        <p>Arcitecture</p>
       </div>
     </div>
     <div class="photo-item">
-      <img src="/assets/images/photos/flower-abstract.jpg" alt="Abstract flower composition">
+      <img src="/assets/images/photos/sunset.jpg" alt="Beautiful sunset over a lake">
       <div class="photo-info">
-        <h4>Botanical Abstract</h4>
+        <h4>Nature</h4>
         <p>Natural forms creating artistic compositions</p>
       </div>
     </div>
@@ -150,10 +148,8 @@ My approach to photography is influenced by my scientific background. I look for
 
 ## Technical Details
 
-**Equipment**: Canon EOS R5, Nikon D850  
-**Lenses**: 24-70mm f/2.8, 100mm Macro, 16-35mm f/2.8  
-**Specialties**: Macro photography, Long exposure, Scientific imaging  
-**Post-processing**: Adobe Lightroom, Photoshop
+**Equipment**: 
+
 
 ---
 
@@ -186,7 +182,7 @@ My approach to photography is influenced by my scientific background. I look for
 
 Interested in prints or collaborating on scientific photography projects? Contact me at:  
 **Email**: pinkeshpatel422@gmail.com  
-**Instagram**: @pinkesh_captures *(if you have one)*
+
 
 <style>
 .photo-collection {
