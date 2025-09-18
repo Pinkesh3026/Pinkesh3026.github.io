@@ -33,7 +33,6 @@ Sardar Patel University, India (Jun 2019 - Nov 2021)
 ## Professional Experience
 
 **Support Manager** - Pizza Hut Restaurant, Edinburgh, UK (Dec 2023 - Present)
-- Applied GMP principles and regulatory compliance skills in a commercial environment
 - Developed SOPs and risk assessments, demonstrating attention to detail and process optimization
 - Coordinated regulatory audits and inspections, showcasing problem-solving abilities under pressure
 
@@ -61,15 +60,9 @@ Sardar Patel University, India (Jun 2019 - Nov 2021)
 - **Peer Support**: Provided tutorials on data analysis and visualization tools to colleagues
 - **Laboratory Organization**: Managed practical sessions setup including instruments, chemicals, and SOPs
 
-## Certifications
-
-- Drug Development Product Management - University of California, San Diego (Coursera, 2022)
-- Introduction to Intellectual Property - University of Pennsylvania (Coursera, 2022)
-
 ## Beyond Research
 
 When I'm not in the laboratory, you'll find me behind a camera lens. **Photography** is my creative outlet, allowing me to capture the beauty of science, nature, and urban landscapes. This artistic perspective often influences my approach to scientific visualization and presentation.
 
 ---
 
-*I believe that the future of biotechnology lies in interdisciplinary collaboration and innovative thinking. My goal is to contribute to the development of next-generation therapeutic solutions that can make a real difference in people's lives.*
