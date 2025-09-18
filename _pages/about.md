@@ -7,6 +7,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/edinburgh-skyline.jpg
 ---
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/about.css">
 
 ## Biography
 
