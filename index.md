@@ -69,7 +69,6 @@ As a passionate photographer, I capture the beauty of science and nature. Here a
 
 ---
 
-*"Innovation in biotechnology comes from bridging the gap between fundamental research and practical applications."*
 
 <style>
 .photo-gallery {
