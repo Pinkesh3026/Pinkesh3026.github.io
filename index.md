@@ -5,12 +5,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/lab-banner.jpg
-  actions:
-    - label: "View Publications"
-      url: "/publications/"
-    - label: "Download CV"
-      url: "/cv/"
-excerpt: "Biotechnologist specializing in nanotechnology, drug delivery systems, and therapeutic protein research"
+
 intro: 
   - excerpt: "Welcome to my academic website. I'm a researcher passionate about developing innovative nanotherapeutic carriers and optimizing bioprocess systems for enhanced drug delivery."
 feature_row:
