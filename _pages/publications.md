@@ -227,122 +227,6 @@ classes: wide
   text-decoration: none;
 }
 
-/* Graphical Abstract Section */
-.graphical-abstract {
-  background: linear-gradient(135deg, 
-    rgba(255, 255, 255, 0.95), 
-    rgba(248, 249, 250, 0.95)
-  );
-  padding: 1.5rem;
-  border-radius: 16px;
-  margin: 2rem 0;
-  border: 2px dashed #e74c3c;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  animation: fadeInUp 1.8s ease-out;
-  position: relative;
-}
-
-.graphical-abstract:hover {
-  background: linear-gradient(135deg, 
-    rgba(231, 76, 60, 0.05), 
-    rgba(192, 57, 43, 0.05)
-  );
-  border-color: #c0392b;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(231, 76, 60, 0.1);
-}
-
-.abstract-preview {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-.abstract-icon {
-  font-size: 2rem;
-  color: #e74c3c;
-}
-
-.abstract-text {
-  color: #2c3e50;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.abstract-description {
-  color: #666;
-  font-size: 0.85rem;
-  margin-bottom: 1rem;
-}
-
-.view-abstract-btn {
-  background: linear-gradient(45deg, #e74c3c, #c0392b);
-  color: white;
-  padding: 0.6rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  font-weight: 500;
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.view-abstract-btn:hover {
-  background: linear-gradient(45deg, #c0392b, #a93226);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
-}
-
-/* Modal for Graphical Abstract */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  backdrop-filter: blur(5px);
-}
-
-.modal-content {
-  margin: 2% auto;
-  display: block;
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
-}
-
-.close {
-  position: absolute;
-  top: 20px;
-  right: 35px;
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.close:hover {
-  color: #e74c3c;
-}
-
-.modal-caption {
-  text-align: center;
-  color: #ffffff;
-  padding: 15px 0;
-  font-size: 1rem;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
 /* Abstract Section with Animation */
 .abstract-section {
   background: linear-gradient(135deg, 
@@ -375,6 +259,95 @@ classes: wide
   color: #444;
   margin: 0;
   font-size: 0.9rem;
+}
+
+/* Simple Graphical Abstract Button */
+.view-graphical-abstract {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.view-graphical-abstract:hover {
+  background: linear-gradient(45deg, #2980b9, #1f5582);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(52, 152, 219, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+/* Fixed Modal for Graphical Abstract */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close:hover {
+  color: #e74c3c;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 20px;
+  font-size: 1rem;
+  max-width: 80%;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
 }
 
 /* Keywords with Stagger Effect */
@@ -501,11 +474,6 @@ classes: wide
   .impact-highlights {
     grid-template-columns: 1fr;
   }
-
-  .abstract-preview {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -516,6 +484,14 @@ classes: wide
   .read-paper-btn {
     padding: 0.8rem 1.5rem;
     font-size: 0.85rem;
+  }
+  
+  .close {
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
   }
 }
 </style>
@@ -540,19 +516,19 @@ classes: wide
   <div class="journal-info">
     <em>Chemistry Select</em>, Volume 9, Issue 32, e202400762 (2024) • Impact Factor: 2.3
   </div>
-    
-  <!-- Graphical Abstract Section -->
-  <div class="graphical-abstract" onclick="openModal()">
-    <div class="abstract-preview">
-      <div class="abstract-icon">🧬</div>
-       </div>
-    </div>
-    <button class="view-abstract-btn">View Abstract</button>
-  </div>
+  
+  <a href="https://doi.org/10.1002/slct.202400762" target="_blank" class="read-paper-btn">
+    Read Full Paper
+  </a>
   
   <div class="abstract-section">
     <h4>Abstract</h4>
     <p>Curcumin, known for its proapoptotic, chemo-preventive, chemo-therapeutic, antioxidant, anti-inflammatory, anticancer, and antimicrobial properties, suffers from poor bioavailability, limiting its applications. This study aims to enhance curcumin's bioavailability using carbon dots (CDs) synthesized from fruit peels as a novel nano formulation. CDs were synthesized via hydrothermal synthesis using banana and orange peels as carbon sources. The synthesized CDs were characterized using various techniques including UV-visible spectroscopy, fluorescence spectroscopy, FTIR, DLS, and HRTEM. The results demonstrated successful formation of spherical CDs with enhanced curcumin delivery properties and improved antimicrobial and antioxidant activities.</p>
+    
+    <!-- Simple Graphical Abstract Button -->
+    <button class="view-graphical-abstract" onclick="openModal()">
+      🧬 View Graphical Abstract
+    </button>
   </div>
   
   <div class="keywords-section">
@@ -588,7 +564,7 @@ classes: wide
 
 </div>
 
-<!-- Modal for Graphical Abstract -->
+<!-- Fixed Modal for Graphical Abstract -->
 <div id="abstractModal" class="modal">
   <span class="close" onclick="closeModal()">&times;</span>
   <img class="modal-content" id="modalImg">
@@ -618,4 +594,11 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeModal();
+  }
+});
 </script>
