@@ -9,6 +9,8 @@ header:
   overlay_image: /assets/images/research-banner.jpg
 ---
 
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/research.css">
 ## Research Overview
 
 My research focuses on the **intersection of nanotechnology and biotechnology**, with particular emphasis on developing innovative drug delivery systems and optimizing bioprocess applications. I specialize in creating nanotherapeutic carriers that enhance the bioavailability and therapeutic efficacy of pharmaceutical compounds.
